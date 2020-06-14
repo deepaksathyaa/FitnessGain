@@ -1,0 +1,65 @@
+<%- include('include/head.ejs') %>
+<link rel="stylesheet" href="/css/video.css">
+<script type="text/javascript" language="JavaScript">
+    function chest()
+{
+
+  window.location = "/chest"
+
+}
+function abs()
+{
+
+  window.location = "/abs"
+
+}
+   function arm()
+{
+
+  window.location = "/arm"
+
+}
+function leg()
+{
+
+  window.location = "/leg"
+
+}
+</script>
+    </head>
+    <body>
+        <%- include('include/navigate.ejs') %>
+        <h1><%= calories %></h1>
+        <div class="video-banner">
+            <ul class = "ul1">
+                <li class = "k"><a  href="/index">Home</a></li>
+                <li class = "k"><a  href="/videos">Videos</a></li>
+                <li class = "k"><a  href="/register">Signup</a></li>
+                <li class = "k"><a href="/about">About</a></li>
+              </ul>
+              
+              <img src="https://cityfitnessclub.in/wp-content/uploads/2018/12/slider4.jpg" alt="workout image">
+              <br>
+              
+          
+        </div>
+        <div class="video-banner">
+            
+            <ul class = "ul">
+                <li class = "k"><a  href="/chest">Chest</a></li>
+                <li class = "k"><a  href="/arm">Arm</a></li>
+                <li class = "k"><a  href="/abs">Abs</a></li>
+                <li class = "k"><a  href="/leg">Leg</a></li>
+              </ul>
+              <button class="buttonbutton1" onclick="chest()">Chest</button>
+              <button class="buttonbutton2" onclick="arm()">Arm</button>
+              <button class="buttonbutton3" onclick="abs()">Abs</button>
+              <button class="buttonbutton4" onclick="leg()">Leg</button>
+            </div>
+              
+
+        
+        <%- include('include/end.ejs') %>
+    </body>
+    </html>
+

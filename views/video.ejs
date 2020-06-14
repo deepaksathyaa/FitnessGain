@@ -1,0 +1,55 @@
+<%- include('include/head.ejs') %>
+<link rel="stylesheet" href="/css/video.css">
+<script>window.onscroll = function() {myFunction()};
+
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+    
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+    
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }</script>
+
+</head>
+<body>
+    <%- include('include/navigate.ejs') %>
+    <div class="video-banner">
+        <ul class = "ul1">
+            <li class = "k"><a  href="/index">Home</a></li>
+            <li class = "k"><a  href="/videos">Videos</a></li>
+            <li class = "k"><a  href="/register">Signup</a></li>
+            <li class = "k"><a href="/about">About</a></li>
+          </ul>
+          <img src="https://cityfitnessclub.in/wp-content/uploads/2018/12/slider4.jpg" alt="workout image">
+          <br>
+          
+      
+    </div>
+    <div class="video-banner">
+        
+        <ul class = "ul">
+            <li class = "k"><a  href="/chest">Chest</a></li>
+            <li class = "k"><a  href="/arm">Arm</a></li>
+            <li class = "k"><a  href="/abs">Abs</a></li>
+            <li class = "k"><a  href="/leg">Leg</a></li>
+          </ul>
+          <% for (let v of vid) { %>
+            <iframe  class="button2" src="<%= v.url %>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <% break;} %>
+          <% for (let v of vid) { %>
+          <iframe  class="button1" src="<%= v.url %>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <% } %>
+
+    </div>
+    <%- include('include/end.ejs') %>
+
+</body>
+</html>
+

@@ -1,0 +1,390 @@
+body{
+    background-color: #000;
+
+}
+h1{
+  color: white;
+}
+.row {
+  max-width: 500%;
+  max-height: 500%;
+  color: black;
+  border-radius: 10px;
+  background-image: url(https://wallpaperplay.com/walls/full/4/1/c/97563.jpg);
+  border-radius: 0px;
+  background-color: whitesmoke;
+  padding-bottom: 200px;
+  background-repeat:repeat; 
+  width: 100%;
+  
+  height: 100%;
+  }
+  .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+  .vid a,.page a,.a{
+  color: #bbb;
+  text-decoration: none;
+  list-style-type: none;
+  }
+  .find{
+  float: right;
+  margin-top: -200px;
+  margin-left: 160px;
+  }
+  .contact{
+  float: left;
+  }
+  .vid,.vid li,.vid ul
+  {
+  
+  margin-left: 100px;
+  padding: 5px 100px;
+  list-style-type: none;
+  
+  }
+  .page,.page h1
+  {
+  text-decoration: none;
+  margin-left: 200px;
+  margin-top: -100px;
+  padding: 5px 100px;
+  
+  
+  }
+  
+  .page li{
+  margin-left: 200px;
+  text-decoration: none;
+  padding: 5px 100px;
+  list-style-type: none;
+  }
+  
+  .vid h1{
+  margin-top: 10px;
+  }
+  .page h1{
+  margin-top: -130px;
+  margin-left: 160px;
+  }
+  .contact p, .contact h1,h2
+  {
+  padding: 10px;
+  }
+  .topnav {
+  position: sticky;
+  margin: 2%;
+  padding: 2%;
+  overflow: hidden;
+  background-color: #333;
+  }
+  
+  .topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  }
+  
+  .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  
+  .topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+  }
+
+  .buttonbutton3,.buttonbutton4,.buttonbutton1,.buttonbutton2 {
+      position: relative;
+      border: none;
+      color:black;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      /* margin-top: -80px; */
+      margin-top: 60px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      width:300px;
+      border-radius: 12px;
+      height:150px;
+    }
+    .frame{
+      position: relative;
+      border: none;
+      color:black;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      margin-top: 60px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      width:300px;
+      border-radius: 12px;
+      height:150px;
+    }
+    .buttonbutton1
+    {
+      background-image: url(data:image/jpeg;base64,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);
+    }
+    .buttonbutton2
+    {
+        background-image: url(https://image.shutterstock.com/image-photo/athlete-doing-pushup-part-bodybuilding-260nw-1389906833.jpg);
+    }
+    .buttonbutton3
+    {
+      background-image: url(https://image.shutterstock.com/image-photo/closeup-cool-perfect-sexy-strong-260nw-396139042.jpg);   
+    }
+    .buttonbutton4{
+       background-image: url(https://www.t-nation.com/system/publishing/articles/10000388/original/4-Weeks-to-Bigger-Legs.jpg?1455838420);
+      margin-left: 570px;
+    }
+    img{
+      margin-left: 210px;
+        margin-top: -150px;
+        float: right;
+        height: 200px;
+        width: 1000px;
+        position:absolute;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .button2{
+      position: relative;
+      border: none;
+      color:black;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      /* margin-top: -80px; */
+      margin-top: 60px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      width:500px;
+      border-radius: 12px;
+      height:150px;
+      background-image: url(https://www.t-nation.com/system/publishing/articles/10000388/original/4-Weeks-to-Bigger-Legs.jpg?1455838420);
+      margin-left: 170px;
+    }
+    .button1{
+      position: relative;
+      border: none;
+      color:black;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      /* margin-top: -80px; */
+      margin-top: 60px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      width:500px;
+      border-radius: 12px;
+      height:150px;
+      background-image: url(https://www.t-nation.com/system/publishing/articles/10000388/original/4-Weeks-to-Bigger-Legs.jpg?1455838420);
+      margin-left: 370px;
+    }
+   
+.ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+  .ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  .k a {
+      
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .k a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .k a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }

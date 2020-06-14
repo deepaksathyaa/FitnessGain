@@ -1,0 +1,24 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "Express First Demo",
+  "main": "demo.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepak",
+  "license": "ISC",
+  "dependencies": {
+    "blob": "^0.1.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "mangodb": "^1.0.0",
+    "mongoose": "^5.9.12",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.3",
+    "pdf": "^0.1.0",
+    "pdfkit": "^0.11.0",
+    "read": "^1.0.7"
+  }
+}

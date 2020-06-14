@@ -1,0 +1,50 @@
+<%- include('include/head.ejs') %>
+<link rel="stylesheet" href="/css/caloriesfinder.css"
+    </head>
+    <body>
+        <%- include('include/navigate.ejs') %>
+        <div class="testbox">
+            <form action="/videos" method="POST">
+              <div class="banner">
+                <h1>Calories Finder Form</h1>
+              </div>
+              <div class="item">
+                <p>Name<span class="required">*</span></p>
+                <div class="name-item">
+                  <input type="text" name="Fname" placeholder="First" required/>
+                  <input type="text" name="Lname" placeholder="Last" required/>
+                </div>
+              </div>
+              <div class="question">
+                <p>Gender<span class="required">*</span></p>
+                <div class="question-answer">
+                  <label><input type="radio" value="Male" name="gender"><span>Male</span></label>
+                  <label><input type="radio"  name = "gender" required value="Female"/> <span>Female</span></label>
+                </div>
+              </div>
+              <div class="item">
+                <p>Your current weight (kms)<span class="required">*</span></p>
+                <input type="number" name="weight"/>
+              </div>
+              <div class="item">
+                <p>Height<span class="required">*</span></p>
+                <input type="number" name= "height" required/>
+              </div>
+              <div class="item">
+                <p>Age<span class="required">*</span></p>
+                <input type="number" name="age" required/>
+              </div>
+              <div class="btn-block">
+                <button type="submit">Apply</button>
+
+              </div>
+            </form>
+          </div>
+          <br>
+          <br>
+          <br>
+        <%- include('include/end.ejs') %>
+            
+
+    </body>
+ </html>   
